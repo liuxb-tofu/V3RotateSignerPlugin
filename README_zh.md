@@ -1,12 +1,12 @@
-## V3RotateSignerPlugin
+# V3RotateSignerPlugin
 
-Android V3 signature itself supports old-key rotation, but the AGP plugin does not support this feature. Therefore, if you need to update your Android app signing key, you can use this plugin.
+android v3签名本身是支持新旧秘钥轮替的，但是AGP插件并没有支持该能力，所以如果你的Android应用需要更新签名秘钥，可使用本插件。
 
-## How to use
+## 使用方法
 
 ```kotlin
 plugins {
-    // Put it at the bottom to make sure it executes last
+    // 放在最下面,保证最后执行的
     id("com.blookliu.v3-rotate-signer")
 }
 
@@ -18,7 +18,8 @@ V3SigningConfig {
     newKeyStore.storePassword = "abcd1234"
 
     lineage = file("$projectDir/keystores/lineage")
-    // Whether to use an independent gradle task, v3RotateSign${variantName}
+    // 是否使用独立的gradle task，v3RotateSign${variantName}
     useSingleTask = false
 }
 ```
+
