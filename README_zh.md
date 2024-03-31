@@ -1,4 +1,5 @@
 # V3RotateSignerPlugin
+*其他语言版本: [English](README.md), [简体中文](README_zh.md).*
 
 android v3签名本身是支持新旧秘钥轮替的，但是AGP插件并没有支持该能力，所以如果你的Android应用需要更新签名秘钥，可使用本插件。
 

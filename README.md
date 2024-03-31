@@ -1,4 +1,5 @@
 ## V3RotateSignerPlugin
+*Read this in other languages: [English](README.md), [简体中文](README_zh.md).*
 
 Android V3 signature itself supports old-key rotation, but the AGP plugin does not support this feature. Therefore, if you need to update your Android app signing key, you can use this plugin.
 
