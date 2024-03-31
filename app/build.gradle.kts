@@ -3,7 +3,7 @@ plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
     // 放在最下面
-    id("com.blookliu.v3-rotate-signer")
+    id("io.github.blookliu.v3-rotate-signer")
 }
 
 android {

@@ -1,4 +1,4 @@
-package com.blookliu.v3_rotate_signer
+package io.github.blookliu.v3_rotate_signer
 
 import com.android.build.gradle.AppExtension
 import com.android.build.gradle.api.ApplicationVariant

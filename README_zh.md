@@ -8,7 +8,7 @@ android v3签名本身是支持新旧秘钥轮替的，但是AGP插件并没有�
 ```kotlin
 plugins {
     // 放在最下面,保证最后执行的
-    id("com.blookliu.v3-rotate-signer")
+    id("io.github.blookliu.v3-rotate-signer")
 }
 
 V3SigningConfig {

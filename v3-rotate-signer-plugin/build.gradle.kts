@@ -4,7 +4,7 @@ plugins {
     id("com.gradle.plugin-publish") version "1.2.1"
 }
 
-group = "com.blookliu"
+group = "io.github.blookliu"
 version = "1.0.0"
 
 dependencies {
@@ -18,11 +18,11 @@ gradlePlugin {
     vcsUrl = "https://github.com/liuxb-tofu/V3RotateSignerPlugin.git"
     plugins {
         create("V3RotateSignerPlugin") {
-            id = "com.blookliu.v3-rotate-signer"
+            id = "io.github.blookliu.v3-rotate-signer"
             displayName = "Plugin for replace signing key"
             description = "A plugin for using v3 rotation signature to replace the secret key"
             tags = listOf("android", "signature", "build")
-            implementationClass = "com.blookliu.v3_rotate_signer.SignerPlugin"
+            implementationClass = "io.github.blookliu.v3_rotate_signer.SignerPlugin"
         }
     }
 }

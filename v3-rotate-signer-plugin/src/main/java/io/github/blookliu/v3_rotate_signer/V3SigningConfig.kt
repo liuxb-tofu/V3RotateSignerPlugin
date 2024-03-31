@@ -1,4 +1,4 @@
-package com.blookliu.v3_rotate_signer
+package io.github.blookliu.v3_rotate_signer
 
 import groovy.lang.Closure
 import org.gradle.api.NamedDomainObjectContainer

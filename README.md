@@ -8,7 +8,7 @@ Android V3 signature itself supports old-key rotation, but the AGP plugin does n
 ```kotlin
 plugins {
     // Put it at the bottom to make sure it executes last
-    id("com.blookliu.v3-rotate-signer")
+    id("io.github.blookliu.v3-rotate-signer")
 }
 
 V3SigningConfig {
